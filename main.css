@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; 
+} 
+
+/* .main_container { 
+    display: flex;
+    
+} */
+
+/* .div1 {
+    float: left;
+    margin: 10px;
+
+} */
+
+/* .div2 {
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    width: 100%;
+    height: auto;
+
+}  */
+
+
+/* img {
+    width: 100%;
+    height: auto;
+}  */
