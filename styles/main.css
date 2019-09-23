@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box; 
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;    
+  } 
+  
+  .main_container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 1%;
+    padding: 2%;
+  }
+
+  .div1 {
+      background: url("https://picsum.photos/674/450") no-repeat;
+      height: 450px;
+      width: 674px;
+  }
+
+  .div2b {
+      margin: 1%;
+      max-width: 360px;      
+  }
+
+  .div2 h2 {
+      margin: 2%;
+  }
+
+  .btns {
+    margin: 3% 0%;
+  }
+
+  button {
+    font-size: 16px;
+    color:#FFFFFF;
+    border-radius: 5px;
+    height: 58px; 
+  }
+
+  .btn1 {
+    width: 206px;
+    background: #FFB800
+  }
+
+  .btn2 {
+    width: 142px;
+    background: #3C3C3C;
+  }
+
+  .btn3 {
+    width: 142px;
+    background: #3C3C3C;
+    visibility: hidden;
+  }
+
+  @media screen and (max-width: 414px) {
+    .div1 {
+      background: url("https://picsum.photos/674/450") 50% 50% no-repeat; 
+      width: 370px;
+      height: 250px;
+    }
+  
+    .btn1 {
+      width: 370px;
+      background: #FFB800
+    }
+  
+    .btn2 {
+      width: 370px;
+      background: #3C3C3C;
+      display: none;
+    }
+  
+    .btn3 {
+      width: 370px;
+      background: #3C3C3C;
+      visibility: visible;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+  .div1 {
+    background: url("https://picsum.photos/674/450") 50% 50% no-repeat; 
+    width: 335px;
+    height: 295px;
+  }
+
+  .btn1 {
+    width: 335px;
+    background: #FFB800
+  }
+
+  .btn2 {
+    width: 335px;
+    background: #3C3C3C;
+    display: none;
+  }
+
+  .btn3 {
+    width: 335px;
+    background: #3C3C3C;
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .div1 {
+    background: url("https://picsum.photos/674/450") 50% 50% no-repeat; 
+    width: 286px;
+    height: 110px;
+  }
+
+  .btn1 {
+    width: 286px;
+    background: #FFB800;
+    height: 29px;
+  }
+
+  .btn2 {
+    width: 286px;
+    background: #3C3C3C;
+    display: none;
+  }
+
+  .btn3 {
+    width: 286px;
+    background: #3C3C3C;
+    visibility: visible;
+    height: 29px;
+  }
+}
+
+
+
+
+
+
+
